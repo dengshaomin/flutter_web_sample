@@ -4,7 +4,6 @@ import 'package:url_launcher/url_launcher.dart';
 class SchemePage extends StatelessWidget {
   SchemePage({Key? key}) : super(key: key);
   final TextEditingController _textController = TextEditingController();
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
